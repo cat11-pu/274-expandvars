@@ -1,0 +1,13 @@
+{
+  "budget": 1,
+  "defs": { "A": "$B-x", "B": "$C", "C": "v" },
+  "missing_error_code": "E_MISSING",
+  "cycle_error_code": "E_CYCLE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "resolved": {}, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "resolve", "name": "A" },
+    { "id": 2, "kind": "resolve", "name": "B" },
+    { "id": 3, "kind": "resolve", "name": "C" }
+  ]
+}
